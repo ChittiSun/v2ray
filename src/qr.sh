@@ -1,6 +1,6 @@
 _qr_create() {
 	local vmess="vmess://$(cat /etc/v2ray/vmess_qr.json | base64 -w 0)"
-	local link="http://varsiri.com:8889/tool/qr.html#${vmess}"
+	local link="http://showdoc.varsiri.com:8889/tool/qr.html#${vmess}"
 	echo
 	echo "---------- V2Ray 二维码链接 适用于 V2RayNG v0.4.1+ / Kitsunebi -------------"
 	echo
